@@ -13,7 +13,6 @@ namespace IB_1_Scitala_
             var k = text.Length % d;
             if (k > 0)
             {
-                //дополняем строку пробелами
                 text += new string(' ', d - k);
             }
 
@@ -69,16 +68,6 @@ namespace IB_1_Scitala_
     {
         static void Main(string[] args)
         {
-            //var scytale = new ScytaleCipher();
-            //Console.Write("Введите текст сообщения: ");
-            //var message = Console.ReadLine();
-            //Console.Write("Введите диаметр цилиндра: ");
-            //var diameter = Convert.ToInt32(Console.ReadLine());
-            //var encText = scytale.Encrypt(message, diameter);
-            //Console.WriteLine("Зашифрованный текст: {0}", encText);
-            //Console.WriteLine("Расшифрованный текст: {0}", scytale.Decrypt(encText, diameter));
-            //Console.ReadLine();
-
             while (true)
             {
                 Console.WriteLine("\n----------------\n1 - Шифровка\n2 - Расшифровка\n3 - Взлом без ключа");
